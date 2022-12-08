@@ -1,4 +1,111 @@
-<!DOCTYPE html>
-<html>
-    <h2>test</h2>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name ="author" content="Kigame Kisia">
+    <meta name ="description" content="Bountiful Foods home page for Kigame Kisia">
+    <title>Bountiful Foods| Home</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+  <!-- <diV id="banner">
+    <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+  </diV> -->
+    <header>
+      <div class="theheader">
+        <div class="logo"><img src="images/logo.webp" alt="Website Logo" width="80" height="80"></div>
+        <div><h2>Bountiful Foods</h2></div>
+        <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="navigate">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        </nav>
+        <div class="social">
+          <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook Icon" width="50" height="50"></a>
+          <a target="_blank" href="https://www.twitter.com/"><img src="images/twitter.png" alt="Twitter Icon" width="50" height="50"></a>
+          <a target="_blank" href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="Linked in Icon" width="50" height="50"></a>
+        </div>
+      </div>
+      <div id="date"></div>
+    </header>
+    <main class="home-main">
+        <section class="hero">
+          <h2>Welcome to Carlifornia</h2>
+          <picture>
+            <source media="(min-width:1201px)" srcset="images/large.jpg">
+            <source media="(min-width:801px)" srcset="images/medium.jpg">
+            <img src="images/small.jpg" alt="Hero Image">
+          </picture>
+          <div class="join-chamber"><a href="join.html">Join the Chamber</a></div> 
+        </section>
+        <div class="event">
+          
+        </div>
+        <div class="weather">
+          <h3>Weather Card</h3>
+          <figure>
+            <img src="https://placehold.jp/70x70.png" alt="Weather icon" id="weather-icon" width="70" height="70">
+            <figcaption></figcaption>
+          </figure>
+          <p class="temperature"><span id="currenttemp"></span>ºC</p>
+          <p id="desc" class="temperature"></p>
+          <hr>
+          <p>Wind Speed: <span id="wind">2.5</span> km/h</p>
+          <p>Wind Chill: <span id="chill">N/A</span></p> 
+        </div>
+        <div class="join">
+            <h3>Summary Information
+                About coastal area</h3>
+          <div class="yello_btn"><a href="join.html">Join Us!</a></div>
+          <p></p>
+        </div>
+        <div class="newsrelease">
+          <h3>Information card</h3>
+          <p></p>
+        </div>
+        <div class="spoth">
+            <h3>Call to action</h3>
+          <section class="spothlight1">
+          
+          </section>
+          <section class="spothlight2">
+           
+          </section>
+          <section class="spothlight3">
+           
+          </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footerlogo"><img src="images/logo.webp" alt="Website Logo" width="80" height="80"></div>
+        <div class="information">
+          <h2>Bountiful Foods</h2>
+          <p>1060 Maragoli</p>
+          <p>Vihiga, Kenya</p>
+        </div>
+        <div class="contact_info">
+          <p>info@bountifulfoods.com</p>
+          <p>+254715154733</p>
+          <a href="https://goo.gl/maps/KvHkC7gj1pyDZxLd8">📍Location Map</a>
+        </div>
+        <hr>
+        <p>&copy;<span id="year"></span> Bountiful foods | Geoffrey Kigame Kisia | WDD 230 Final Project
+        Last modification: <span id="modified"></span></p>
+        <p>Weather Source : OpenWeatherMap</p>
+    </footer>
+    <script src="scripts/bountiful.js"></script>
+    <script src="scripts/navbutton.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
 </html>

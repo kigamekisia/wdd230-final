@@ -1,0 +1,59 @@
+@media only screen and (min-width: 37.5em) {
+	h1 {
+		font-size: 1.5rem;
+		margin: 0px;
+	}
+
+	h2,
+	p,
+	footer {
+		font-size: 1.2rem;
+	}
+
+	h3 {
+		font-size: 1.1rem;
+	}
+	.home-main{
+		max-width: 100%;
+	}
+	header,
+	footer {
+		max-width: 100%;
+	} 
+
+	nav {
+		max-width: 100%;
+	}
+
+	nav ul {
+		display: flex;
+	}
+
+	nav ul li {
+		flex: 1 1 auto; 
+	}
+
+	nav ul li a {
+		font-size: 1.2rem;
+	}
+    footer {
+		display: grid;
+		grid-template-columns: 0.1fr 1fr 1fr;
+	}
+	
+	.footerlogo {
+		grid-column: 1;
+	}
+    .information {
+		grid-column: 2;
+		text-align: left;
+		padding-left: 10px;
+	}
+	.contact_info {
+		grid-column: 3;
+		
+	}
+	footer a {
+		color: white;
+	}
+}
