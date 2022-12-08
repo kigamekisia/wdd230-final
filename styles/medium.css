@@ -56,4 +56,11 @@
 	footer a {
 		color: white;
 	}
+	
+	hr{
+		grid-column: 1/4;
+	}
+	p{
+		grid-column: 1/4;
+	}
 }

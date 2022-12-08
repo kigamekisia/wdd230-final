@@ -23,4 +23,19 @@
     .social {
 		grid-column: 4/5;
 	}
+    footer {
+		max-width: 100%;
+	}
+    nav button {
+		display: none;
+	}
+	.contact-info {
+		width: 50%; 
+		height: auto;
+		text-align: left;
+		margin-left: 0px;
+		background-color: aqua;
+		border: solid #19da36;
+	} 
+	
 }
