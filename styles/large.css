@@ -37,5 +37,31 @@
 		background-color: aqua;
 		border: solid #19da36;
 	} 
-	
+	.card-container{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		/* justify-items: center; */
+  		grid-gap: 20px;
+	}
+	.weather{
+		background-color: red;
+  		grid-column: 1/1;
+		grid-row: 1/1;
+	}
+	.summary{
+		grid-column: 2/2;
+		grid-row: 1/1;
+		background-color: green;
+	}
+	.call{
+		grid-column: 1/1;
+		grid-row: 2/2;
+		background-color: gray;
+		
+	}
+	.infomation{
+		grid-column: 2/2;
+		grid-row: 2/2;
+		background-color: rgb(229, 255, 0);
+	}
 }
