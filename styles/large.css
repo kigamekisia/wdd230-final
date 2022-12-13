@@ -40,28 +40,34 @@
 	.card-container{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		/* justify-items: center; */
   		grid-gap: 20px;
 	}
 	.weather{
 		background-color: red;
   		grid-column: 1/1;
 		grid-row: 1/1;
+		align-items: center;
+		text-align: center;
 	}
 	.summary{
 		grid-column: 2/2;
 		grid-row: 1/1;
 		background-color: green;
+		align-items: center;
+		text-align: center;
 	}
 	.call{
 		grid-column: 1/1;
 		grid-row: 2/2;
 		background-color: gray;
-		
+		align-items: center;
+		text-align: center;
 	}
 	.infomation{
 		grid-column: 2/2;
 		grid-row: 2/2;
 		background-color: rgb(229, 255, 0);
+		align-items: center;
+		text-align: center;
 	}
 }
