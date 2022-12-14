@@ -79,10 +79,10 @@ nav ul li a {
   padding: 10px;
   justify-content: center;
 }
-.summary img{
+/* .summary img{
 	float: right;
 	margin-top: -50px;
-}
+} */
 .weather{
   align-items: center;
   text-align: center;
