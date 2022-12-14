@@ -66,12 +66,10 @@ nav ul li a {
 	height: auto;
 }
 .call{
-	grid-column: 1/1;
-  grid-row: 1/1;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  padding: 10px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding: 10px;
 }
 .summary{
   align-items: center;
