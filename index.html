@@ -38,88 +38,69 @@
     </header>
     <main class="home-main">
         <div class="hero">
-          <h2>Welcome to Carlifornia</h2>
+          <h2>Welcome to Bountiful Foods Carlsbad, California</h2>
           <picture>
             <source media="(min-width:1201px)" srcset="images/hero-image2.jpg">
             <source media="(min-width:801px)" srcset="images/hero-image2.jpg">
             <img src="images/hero-image2.jpg" alt="Fruit Image" width="400" height="225">
-          </picture>
-          <div class="drink-link"><a href="fresh.html">Choose your drink</a></div> 
+          </picture> 
         </div>
         <div class="card-container">
-          <div class="weather">
-            <h3>Weather Card</h3>
-          <figure>
-            <img src="https://placehold.jp/70x70.png" alt="Weather icon" id="weather-icon" width="70" height="70">
-            <figcaption></figcaption>
-          </figure>
-          <p class="temperature"><span id="currenttemp"></span>ºC</p>
-          <p id="desc" class="temperature"></p>
-          <hr>
-          <p>Wind Speed: <span id="wind">2.5</span> km/h</p>
+          <div class="call">
+            <h3> Make your own fruit drink mix</h3>
+            <img src="images/juice.jpg"  alt="juice image" width="400">
+            <div class="drink-link"><a href="fresh.html">Choose your drink</a></div>
           </div>
           <div class="summary">
             <h3>Summary Information About coastal area</h3>
-            <img src="images/watermelon.jpg" alt="Water melon" width="400" height="400">
+            <p>Los Angeles County, officially the County of Los Angeles, and sometimes abbreviated as L.A. County,
+               is the most populous county in the United States and in the U.S. state of California,with
+                9,861,224 residents estimated as of 2022.It is the most populous non–state-level government
+                entity in the United States. Its population is greater than that of 40 individual U.S. states. 
+                At 4,083 square miles (10,570 km2) and with 88 incorporated cities and many unincorporated areas,
+                it is home to more than one-quarter of California residents and is one of the most ethnically 
+                diverse counties in the United States.</p>
+            <img class="right" src="images/los-angeles.jpg" alt="Los Angeles image" width="400">
           </div>
-          <div class="call">
-            <h3>Call to action</h3>
-            <img src="images/strawberry.jpg"  alt="stra beryy image" width="400" height="400">
+          <div class="weather">
+            <h3>Current Weather</h3>
+            <figure>
+              <img src="" alt="" id="weather-icon" />
+              <figcaption></figcaption>
+            </figure>
+            <p class="temperature"><span id="current-temp"></span>&deg;C</p>
+            <p id="desc" class="temperature"></p>
+            <hr>
+            <p>current wind speed is <span id="speed">00</span></p>
+            <!-- <p>wind chill: <span id="chill">00</span></p> -->
+            <p>Humidity is <span id="humidity">00</span>%</p>
+            <div id="forecast" class="forecast"></div>
           </div>
           <div class="infomation">
-            <h3>Information Card</h3>
-            <img src="images/banana.jpg" alt="Banana image" width="400" height="400">
+            <h3>General Information</h3>
+            <p>Bountiful Foods is small business specializing in organic, locally grown foods. 
+              They are physically located in Carlsbad, California, however, they have many food 
+              trucks that cover the coastal area from Los Angeles to San Diego. The company sells 
+              fruits and produce directly from the farmers in the area, but also uses some national 
+              and international suppliers. The owner-operated company caters to walk in traffic at 
+              their storefront in Carlsbad and, of course, their food trucks.</p>
+            <div class="fruit-show"><img src="images/banana.jpg" alt="Banana image" width="100" height="100">
+              <img src="images/orange.jpg" alt="orange image" width="100" height="100">
+              <img src="images/watermelon.jpg" alt="Watermelon image" width="100" height="100">
+            </div>
           </div>
         </div>
-        <!-- <div class="event">
-          
-        </div>
-        <div class="weather">
-          <h3>Weather Card</h3>
-          <figure>
-            <img src="https://placehold.jp/70x70.png" alt="Weather icon" id="weather-icon" width="70" height="70">
-            <figcaption></figcaption>
-          </figure>
-          <p class="temperature"><span id="currenttemp"></span>ºC</p>
-          <p id="desc" class="temperature"></p>
-          <hr>
-          <p>Wind Speed: <span id="wind">2.5</span> km/h</p>
-          <p>Wind Chill: <span id="chill">N/A</span></p> 
-        </div>
-        <div class="join">
-            <h3>Summary Information
-                About coastal area</h3>
-          <div class="yello_btn"><a href="join.html">Join Us!</a></div>
-          <p></p>
-        </div>
-        <div class="newsrelease">
-          <h3>Information card</h3>
-          <p></p>
-        </div> -->
-        <!-- <div class="spoth">
-            <h3>Call to action</h3>
-          <section class="spothlight1">
-          
-          </section>
-          <section class="spothlight2">
-           
-          </section>
-          <section class="spothlight3">
-           
-          </section>
-        </div> -->
     </main>
     <footer>
         <div class="footerlogo"><img src="images/logo.webp" alt="Website Logo" width="80" height="80"></div>
         <div class="information">
           <h2>Bountiful Foods</h2>
-          <p>Adress</p>
-          <p>Adress</p>
+          <p>Carlsbad, California</p>
         </div>
         <div class="contact_info">
           <p>info@bountifulfoods.com</p>
           <p>+254715154733</p>
-          <a href="https://goo.gl/maps/KvHkC7gj1pyDZxLd8">📍Location Map</a>
+          <a href="https://goo.gl/maps/kB1J433VJHhUFGer6">📍Location Map</a>
         </div>
         <hr>
         <p>&copy;<span id="year"></span> Bountiful foods | Geoffrey Kigame Kisia | WDD 230 Final Project
@@ -127,8 +108,8 @@
         <p>Weather Source : OpenWeatherMap</p>
     </footer>
     <script src="scripts/bountiful.js"></script>
-    <!-- <script src="scripts/navbutton.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/weather.js"></script> -->
+    <script src="scripts/navbutton.js"></script>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

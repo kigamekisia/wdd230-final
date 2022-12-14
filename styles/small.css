@@ -23,7 +23,7 @@ header {
 header,
 footer {
 	text-align: center;
-	color:  #141BE7;
+	color:  white;
 	background-color: #19DA36;
 	display: flex;
 	flex-flow: column;
@@ -32,10 +32,10 @@ footer {
 	padding: 10px;
 }
 header h1{
-    color:#141BE7;
+    color: white;
 }
 #date{
-    color:#141BE7;
+    color:white;
 }
 nav {
 	margin: 0 auto;
@@ -51,7 +51,7 @@ nav ul {
 }
 nav ul li a {
 	display: block;
-	color:  #141BE7;
+	color:  white;
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 1rem;
@@ -65,13 +65,105 @@ nav ul li a {
 	width: 100%;
 	height: auto;
 }
-.drink-link a{color: white;}
+.call{
+	grid-column: 1/1;
+  grid-row: 1/1;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+.summary{
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+}
+.summary img{
+	float: right;
+	margin-top: -50px;
+}
+.weather{
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+}
+.infomation{
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+}
 .drink-link {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
+	margin-top: 20px;
+}
+.drink-link a{
+	color: white;
+	width: 150px;
 	padding: 10px;
 	background-color: #E81586;
 	border-radius: 1em;
-  }
-  
+	
+  } 
+.forecast {
+	display: flex;  
+	justify-content: center; 
+	align-items: center;
+	
+}
+.forecast > div{
+	flex: 1;
+}
+.home-main{
+	background-color: rgb(164, 212, 210);
+}
+nav button {
+	margin: 0.2rem 2vw;
+	background: black;
+	font-size: 2rem;
+	color: white;
+	border: none;
+}
+nav ul.open {
+	display: block;
+}
+
+nav a:hover {
+	background-color: blue;
+}
+#hamburgerBtn span:nth-child(1) {
+	display: block;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+	display: none;
+}
+
+#hamburgerBtn span:nth-child(2) {
+	display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+	display: block;
+}
+.contact-us-card{
+	padding: 20px;
+	justify-content: center;
+}
+.history-card{
+	padding: 20px;
+	justify-content: center;
+}
+
+.hero h2{
+	text-align: center;
+}
+/* .fruit-show{
+	display: flex;
+} */
+hr{
+	height: 5px;
+	width: 100%;
+	background-color: blue;
+}
