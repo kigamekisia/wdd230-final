@@ -110,6 +110,11 @@ nav ul li a {
 .infomation h3{
 	text-align: center;
 }
+.infomation img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
 .drink-link {
 	margin-top: 20px;
 }
@@ -277,4 +282,9 @@ form label.top input:required:valid {
 .aboutus-main h2{
 	text-align: center;
 	font-size: 25px;
+}
+.history-card img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
