@@ -236,8 +236,8 @@ legend {
 	font-size: 15px;
 }
 select#fruit1, select#fruit2, select#fruit3 {
-	background-color: #FFFFFF; 
-	border: 6px solid #E81586; 
+	background-color: white; 
+	border: 2px solid #E81586; 
 	padding: 2%; 
 	border-radius: 10px;
 }
