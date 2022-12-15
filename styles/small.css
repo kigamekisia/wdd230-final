@@ -224,7 +224,7 @@ legend {
 }
 select#fruit1, select#fruit2, select#fruit3 {
 	background-color: #FFFFFF; 
-	border: black; 
+	border: 2px solid #E81586; 
 	padding: 2%; 
 	border-radius: 10px;
 }
