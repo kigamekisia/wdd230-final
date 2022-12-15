@@ -165,11 +165,93 @@ nav a:hover {
 .hero h2{
 	text-align: center;
 }
-/* .fruit-show{
-	display: flex;
-} */
+.fresh-main {
+	padding: 10px;
+	margin: 10px;
+	justify-items: center;
+}
+.fresh-main h1{
+	text-align: center;
+}
+
 hr{
 	height: 5px;
 	width: 100%;
 	background-color: blue;
+}
+
+/* Frash Page */
+fieldset{
+	margin-top: 5px; 
+	border: none; 
+	border-radius: 10px;
+}
+legend {
+	text-align: center; 
+	font-size: 25px; 
+	color: red;
+}
+
+.form-drink, .form-data {
+	margin: auto;
+	width: 50%;
+	min-width: 350px;
+	border-radius: 4px;
+  	background-color: #FFFFFF;
+}
+
+.top input, .top textarea, label.top{
+	display: block;
+	font-size: 13px;
+	width: 100%;
+	padding: 16px;
+	border-radius: 4px;
+}
+
+.flavors {
+  margin: auto;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+.flavors label {
+	color: #ABC7E1; 
+	/* font-family: 'Mulish';  */
+	font-size: 15px;
+}
+select#fruit1, select#fruit2, select#fruit3 {
+  background-color: lightgray; 
+  border: black; 
+  padding: 2%; 
+  border-radius: 10px;
+}
+
+textarea#instructions {
+	width: 100%;
+}
+form input {
+	border: 1px solid #ABC7E1;
+}
+form label.top input:required {
+	border-left: solid 6px #E81586 ;
+}
+form label.top input:required:valid {
+	border-left: solid 6px #E81586;
+}
+
+.submitBtn{
+	width: 100px; 
+	font-size: 18px; 
+	margin: 15px auto 15px 30px ; 
+	color: #FFFFFF;
+	background-color: #E81586;
+	border-radius: 10px;
+}
+
+#form-output {
+	display: none;
+}
+.form-data {
+	margin-top: 2rem; 
+	padding: 2%;
 }

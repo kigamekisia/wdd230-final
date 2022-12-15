@@ -63,4 +63,30 @@
 	p{
 		grid-column: 1/4;
 	}
+	/* Fresh */
+	textarea#instructions {
+		width: 50%;
+	}
+
+	.flavors {
+	  display: flex;
+	}
+	.submitBtn{
+		width: 20%; 
+		font-size: 18px; 
+		margin: 15px auto 15px 30px ; 
+		color: #FFFFFF;
+		background-color: #E81586;
+	}
+  
+	.form-data {
+	  display: grid;
+	  text-align: center;
+	}
+	.order {
+	  grid-column: 1;
+	}
+	.nutrition {
+	  grid-column: 2;
+	}
 }
