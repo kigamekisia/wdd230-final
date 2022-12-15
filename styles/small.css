@@ -59,6 +59,7 @@ nav ul li a {
 .home-main {
 	padding: 10px;
 	margin: 10px;
+	background-color: rgb(164, 212, 210);
 	display: grid;
 }
 .hero img{
@@ -121,9 +122,7 @@ nav ul li a {
 .forecast > div{
 	flex: 1;
 }
-.home-main{
-	background-color: rgb(164, 212, 210);
-}
+
 nav button {
 	margin: 0.2rem 2vw;
 	background: black;
@@ -165,11 +164,6 @@ nav a:hover {
 .hero h2{
 	text-align: center;
 }
-.fresh-main {
-	padding: 10px;
-	margin: 10px;
-	justify-items: center;
-}
 .fresh-main h1{
 	text-align: center;
 }
@@ -181,6 +175,15 @@ hr{
 }
 
 /* Frash Page */
+.fresh-main{
+	background-color: rgb(164, 212, 210);
+	margin: 10px;
+}
+.fresh-main h1{
+	font-size: 30px;
+	padding: 5px;
+}
+
 fieldset{
 	margin-top: 5px; 
 	border: none; 
@@ -189,7 +192,7 @@ fieldset{
 legend {
 	text-align: center; 
 	font-size: 25px; 
-	color: red;
+	
 }
 
 .form-drink, .form-data {
@@ -197,37 +200,37 @@ legend {
 	width: 50%;
 	min-width: 350px;
 	border-radius: 4px;
-  	background-color: #FFFFFF;
+  	background-color: rgba(0, 255, 255, 0.5);
+	padding: 5px;
 }
 
 .top input, .top textarea, label.top{
 	display: block;
 	font-size: 13px;
-	width: 100%;
+	width: 90%;
 	padding: 16px;
 	border-radius: 4px;
 }
 
 .flavors {
-  margin: auto;
-  display: block;
-  text-align: center;
-  justify-content: center;
+	margin: auto;
+	display: block;
+	text-align: center;
+	justify-content: center;
 }
 .flavors label {
 	color: #ABC7E1; 
-	/* font-family: 'Mulish';  */
 	font-size: 15px;
 }
 select#fruit1, select#fruit2, select#fruit3 {
-  background-color: lightgray; 
-  border: black; 
-  padding: 2%; 
-  border-radius: 10px;
+	background-color: #FFFFFF; 
+	border: black; 
+	padding: 2%; 
+	border-radius: 10px;
 }
 
 textarea#instructions {
-	width: 100%;
+	width: 90%;
 }
 form input {
 	border: 1px solid #ABC7E1;
@@ -254,4 +257,20 @@ form label.top input:required:valid {
 .form-data {
 	margin-top: 2rem; 
 	padding: 2%;
+}
+/*About Us*/
+.aboutus-main{
+	background-color: rgb(164, 212, 210);
+	margin: 10px;
+	justify-content: center;
+	justify-items: center;
+	text-align: justify;
+}
+.aboutus-main h2{
+	text-align: center;
+	font-size: 25px;
+}
+.history-card img{
+	align-items: center;
+	text-align: center;
 }
