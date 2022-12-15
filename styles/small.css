@@ -74,9 +74,13 @@ nav ul li a {
 }
 .summary{
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
   padding: 10px;
   justify-content: center;
+  text-align: justify;
+}
+.summary h3{
+	text-align: center;
 }
 .summary img{
 	width:100%;
@@ -98,9 +102,13 @@ nav ul li a {
 }
 .infomation{
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
   padding: 10px;
   justify-content: center;
+  text-align: justify;
+}
+.infomation h3{
+	text-align: center;
 }
 .drink-link {
 	margin-top: 20px;
@@ -269,8 +277,4 @@ form label.top input:required:valid {
 .aboutus-main h2{
 	text-align: center;
 	font-size: 25px;
-}
-.history-card img{
-	align-items: center;
-	text-align: center;
 }
